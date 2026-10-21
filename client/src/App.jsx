@@ -2,8 +2,8 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import * as XLSX from "xlsx-js-style";
-const CROPS_API = "http://localhost:5000/api/crops";
-const IRRIGATION_API = "http://localhost:5000/api/irrigation";
+const CROPS_API = "https://agri-tech-smart-farming.onrender.com/api/crops";
+const IRRIGATION_API = "https://agri-tech-smart-farming.onrender.com/api/irrigation";
 function App() {
   const [page, setPage] = useState("Dashboard");
   const [crops, setCrops] = useState([]);
